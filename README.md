@@ -1,2 +1,1 @@
-# svn-vs-git
-SVN and GIT Comparison
+Research data for the GIT VS SVN topic.
