@@ -1,13 +1,4 @@
-# GIT-VS-SVN
-## Brainswarm
-
--|git|svn
-:---:|:---:|:---:
-Licensing|open-source|open-source
-Type|DCSVC (Decentralized)|CSVC (Centralized)
-Commit|Local|Remote
-Usability|Bourocratic|Simplistic
-Tree Model|DAG (Directed acyclic graph)|Linear tree (stream)
+# Brainstorm
 
 - Licensing
     + Both are opensource
