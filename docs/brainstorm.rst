@@ -1,4 +1,5 @@
-# Brainstorm
+Brainstorm
+==========
 
 - Licensing
     + Both are opensource
@@ -13,10 +14,10 @@
 
 - Tree Model
     + SVN - Linear Tree (aka Stream) - SVN uses a linear tree as it's data structure which means that every single commit will be represented as a node on that tree (or line). Every merge from other branches results on a single new commit on the tree like any other modification.
-    + GIT - DAG (Directed acyclic graph)[^1][^2]- The GIT tree has a **Graph** where every commit has reference to, at least, one parent commit. This is specially helpful when you have branches and merges happening on your repository, this structure allows the user to find where each modification happened and in which branch it occurred. This struture maintains the whole commit history.
+    + GIT - DAG (Directed acyclic graph) [#]_ [#]_ - The GIT tree has a **Graph** where every commit has reference to, at least, one parent commit. This is specially helpful when you have branches and merges happening on your repository, this structure allows the user to find where each modification happened and in which branch it occurred. This struture maintains the whole commit history.
 
 - Branching
-    + SVN - As you have only the central repository every branch is automatically remote and public (every user with access to the repository will have access to the branch)[^3]. On the other hand, one can checkout the branch on a different folder on it's file system independent of having the trunk of the repository checked-out. B
+    + SVN - As you have only the central repository every branch is automatically remote and public (every user with access to the repository will have access to the branch) [#]_ . On the other hand, one can checkout the branch on a different folder on it's file system independent of having the trunk of the repository checked-out. B
     + GIT - Branches
 
 - Changes storage
@@ -24,9 +25,8 @@
     + GIT - Files Snapshots
 
 
+.. rubric:: Footnotes
 
-[^1]: [SINK, Eric - Merge History, DAGs and Darcs](http://ericsink.com/entries/merge_history.html)
-
-[^2]: [Wikipedia - Directed acyclic graph](https://en.wikipedia.org/wiki/Directed_acyclic_graph)
-
-[^3]:CONFIRM THIS INFO
+.. [#] `SINK, Eric - Merge History, DAGs and Darcs <http://ericsink.com/entries/merge_history.html>`_
+.. [#] `Wikipedia - Directed acyclic graph <https://en.wikipedia.org/wiki/Directed_acyclic_graph>`_
+.. [#] CONFIRM THIS INFO
