@@ -22,3 +22,5 @@
 * [Merge History, DAGs and Darcs](http://ericsink.com/entries/merge_history.html)
 
 * [StackOverflow - how and or why is merging in git better than in SVN](http://stackoverflow.com/questions/2471606/how-and-or-why-is-merging-in-git-better-than-in-svn/2472251#2472251)
+
+.. [#] `Ben Collins-Sussman, Brian W. Fitzpatrick & C. Michael Pilato - Version Control with Subversion <http://svnbook.red-bean.com/en/1.7/index.html>`_
