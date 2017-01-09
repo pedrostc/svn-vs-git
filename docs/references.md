@@ -23,4 +23,8 @@
 
 * [StackOverflow - how and or why is merging in git better than in SVN](http://stackoverflow.com/questions/2471606/how-and-or-why-is-merging-in-git-better-than-in-svn/2472251#2472251)
 
+* [Git Wiki - Git SVN Comparison](https://git.wiki.kernel.org/index.php/GitSvnComparison)
+
+* [SoftwareSwirl - Git, Mercurial, and Bazaar—simplicity through inflexibility](http://softwareswirl.blogspot.ca/2009/08/git-mercurial-and-bazaarsimplicity.html)
+
 .. [#] `Ben Collins-Sussman, Brian W. Fitzpatrick & C. Michael Pilato - Version Control with Subversion <http://svnbook.red-bean.com/en/1.7/index.html>`_
