@@ -37,6 +37,12 @@ Tags and branches are very similar in both systems. For SVN a TAG is just anothe
 
 On git a tag is a static pointer to a specific commit. Unlike the branch pointer, the tag pointer is static, wich means that it cannot be moved to another commit.
 
+## Security
+
+SVN offers a more granular security control, you can have different access rights for each folder on your repository, remember that tags and branches are also folders, wich if perfect for a top-down management.
+
+GIT security is repository-wise, you can allow or revoke access of a user to the whole repository only. You can apply read-only access to certain branches also, but for the whole repository, never to a single folder or file.
+
 ## Commits
 
 Every commit on SVN creates a nes revision on the remote repository, that means that, to be able to commit some changes on the code the developer need to have access to the main repository.
@@ -55,3 +61,8 @@ Some of the main advantages for the development workflow that git can provide ar
 
 * Peer-To-Peer - Every clone of the repository is a full repository, so you can add any copy of the repository as a remote for your local copy. This allows developers to share branches (e.g.: Experimental Branches) without the need to push it to the server.
 
+## Workflow examples [WIP]
+
+* Feature Branch
+* GitFlow
+* OTHERS!?
