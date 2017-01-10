@@ -27,4 +27,8 @@
 
 * [SoftwareSwirl - Git, Mercurial, and Bazaar—simplicity through inflexibility](http://softwareswirl.blogspot.ca/2009/08/git-mercurial-and-bazaarsimplicity.html)
 
+* [BoxySystems Inc. - 5 Fundamental differences between GIT & SVN](http://boxysystems.com/index.php/5-fundamental-differences-between-git-svn/)
+
+*[WANDISCO BLOG - Subversion Best Practices: Repository Structure](http://blogs.wandisco.com/2011/10/24/subversion-best-practices-repository-structure/)
+
 .. [#] `Ben Collins-Sussman, Brian W. Fitzpatrick & C. Michael Pilato - Version Control with Subversion <http://svnbook.red-bean.com/en/1.7/index.html>`_
