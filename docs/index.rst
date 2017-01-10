@@ -10,8 +10,9 @@ Welcome to svn-vs-git's documentation!
    :maxdepth: 2
    :caption: Table of Contents
 
-   presentation
+
    references
+   presentation
    quicknotes
    brainstorm
 
