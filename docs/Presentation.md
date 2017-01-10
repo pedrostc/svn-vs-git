@@ -15,5 +15,25 @@ When you checkout a sa folder from a subversion repository you end up with 2 unc
 
 We can compare the two options to see wich has the biggest size, that can be done importing a existing SVN repository to a GIT repository using the GIT-SVN tool and then compare sizes on the folders.
 
-<<<<EXAMPLE - PHOENIX REPO>>>
+<<<<EXAMPLE - PHOENIX REPO>>>>
 1.04 GB VS 425 MB
+
+## Repository structure
+
+On subversion you have a tree model with just on branch where the revisions, or commits, are stored on after the other.
+
+GIT uses a Graph structure where each commit is a node that knows every of its parents. The commit is the central piece on the git repository.
+
+## Branching
+
+On the SVN side branches are just another directory on the repository with its own history information. You can merge revisions between branches but they are still treated as separated entities. Because of the centrelized nature of SVN all branches are remote and public. The administrator can restrict the access to the branch to a certains group of developers, but still, the branch is located on the server.
+
+On git a branch is basically a named pointer for a specific commit on the tree, because of that branches are lightweight. Branches can be only local or can be published to a remote repository for collaboration with other developers. As the branch is create first locally, the user does not need to have access to the remote repository to complete this operation.
+
+## Commiting
+
+Every commit on SVN creates a nes revision on the remote repository, that means that, to be able to commit some changes on the code the developer need to have access to the main repository.
+
+On git the commit is happens locally, so the developer does not need to have access to the remote. The work can be commited locally and then, when the developer gains access to the remote repository, it can push all the commits at once.
+
+## 
