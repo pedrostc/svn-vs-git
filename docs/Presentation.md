@@ -29,6 +29,7 @@ GIT uses a Graph structure where each commit is a node that knows every of its p
 On the SVN side branches are just another directory on the repository with its own history information. You can merge revisions between branches but they are still treated as separated entities. Because of the centrelized nature of SVN all branches are remote and public. The administrator can restrict the access to the branch to a certains group of developers, but still, the branch is located on the server.
 
 On git a branch is basically a named pointer for a specific commit on the tree, because of that branches are lightweight. Branches can be only local or can be published to a remote repository for collaboration with other developers. As the branch is create first locally, the user does not need to have access to the remote repository to complete this operation.
+Every new copy of the repositroy, cloned from a remote repository, is by default a new local branch of the main repository, that means that every developer repository is a isolated entity and the work on that local repository does not intefeer with other developers work until it is pushed to the shared repository and unless the local copy is being used as a remote repository by another developer.
 
 ## Commiting
 
@@ -36,4 +37,8 @@ Every commit on SVN creates a nes revision on the remote repository, that means 
 
 On git the commit is happens locally, so the developer does not need to have access to the remote. The work can be commited locally and then, when the developer gains access to the remote repository, it can push all the commits at once.
 
-## 
+## Main workflow advantages
+
+Some of the main advantages for the development workflow that git can provide are:
+
+* - 
