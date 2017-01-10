@@ -13,7 +13,6 @@ Welcome to svn-vs-git's documentation!
 
    references
    presentation
-   quicknotes
    brainstorm
 
 
