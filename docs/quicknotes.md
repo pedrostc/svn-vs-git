@@ -1,4 +1,4 @@
-# Brainswarm
+# Quicknotes
 
 1- todo repositório clonado é automáticamente um branch
 2 - tb é local

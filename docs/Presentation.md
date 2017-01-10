@@ -47,4 +47,4 @@ On git the commit is happens locally, so the developer does not need to have acc
 
 Some of the main advantages for the development workflow that git can provide are:
 
-* - 
+* 
