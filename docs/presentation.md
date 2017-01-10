@@ -54,3 +54,4 @@ Some of the main advantages for the development workflow that git can provide ar
 * Pull requests - Git offers the option to create a pull request between branches, this means that the work will only be merge on the destination branch if it gets aproved. This feature helps a lot with codereviews and release of new versions of the application.
 
 * Peer-To-Peer - Every clone of the repository is a full repository, so you can add any copy of the repository as a remote for your local copy. This allows developers to share branches (e.g.: Experimental Branches) without the need to push it to the server.
+
