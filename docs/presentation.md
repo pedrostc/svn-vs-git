@@ -7,9 +7,9 @@
 Repository Location|Remote server|Local - There can be a central repository on a remote server but every collaborator who is working on it has a full copy of the repository locally.
 Operations|Remote|Mostly local
 
-![Centralized](docs/assets/imgs/checkout-cvcs.png)
+![Centralized](assets/imgs/checkout-cvcs.png)
 
-![Distributed](docs/assets/imgs/checkout-dvcs.png)
+![Distributed](assets/imgs/checkout-dvcs.png)
 
 ## Space Consumption
 
