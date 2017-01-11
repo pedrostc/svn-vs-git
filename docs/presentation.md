@@ -7,6 +7,10 @@
 Repository Location|Remote server|Local - There can be a central repository on a remote server but every collaborator who is working on it has a full copy of the repository locally.
 Operations|Remote|Mostly local
 
+![Centralized](docs/assets/imgs/checkout-cvcs.png)
+
+![Distributed](docs/assets/imgs/checkout-dvcs.png)
+
 ## Space Consumption
 
 Knowing that when one developer clone a GIT repository it actually gets a full copy of the intere repository, a concern may araise in terms os local disk space consumption. Well, while you may have more data stored in your disk all the GIT database is compressed and highly optimized which means that the local repository will ocupy less space in disk than one may think.
