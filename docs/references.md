@@ -28,4 +28,6 @@
  
 * [Ben Collins-Sussman, Brian W. Fitzpatrick & C. Michael Pilato - Version Control with Subversion](http://svnbook.red-bean.com/en/1.7/index.html)
 
-*[StackOverflow - What Git branching models work for you?](http://stackoverflow.com/questions/2621610/what-git-branching-models-work-for-you)
+* [StackOverflow - What Git branching models work for you?](http://stackoverflow.com/questions/2621610/what-git-branching-models-work-for-you)
+
+* [Atlassian - GIT resources](https://www.atlassian.com/git/)
