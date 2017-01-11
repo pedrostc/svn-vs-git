@@ -69,16 +69,15 @@ On git the commit is happening locally, so the developer does not need to have a
 
 Some of the main advantages of the development workflow that git can provide are:
 
-* Commit often - Due to the distributed version of git it makes possible for a developer to commit his work as often as he likes without risking breaking other developers code.
+* Commit often - Due to the distributed version of git it makes possible for a developer to commit his work as often as he likes without risking breaking other developers code and maintaining a more detailed history of the work performed.
 
-* Branching workflow - Since branches are lightweight and can be only local the developer may work on the code on a separate branch and then solve all the merge conflicts locally on a complete separated context from other developers code. Most of the git workflows take advantage of its branching model.
+* Branching workflow - Since branches are lightweight and can be only local the developer may work on the code on a separate branch and then solve all the merge conflicts locally on a complete separated context from other developers code. Most of the git workflows take advantage of its branching model using separate and/or temporary branches for different kinds of work.
 
 * Pull requests - Git offers the option to create a pull request between branches, this means that the work will only be merge on the destination branch if it gets approved. This feature helps a lot with code reviews and release of new versions of the application.
 
 * Peer-To-Peer - Every clone of the repository is a full repository, so you can add any copy of the repository as a remote for your local copy. This allows developers to share branches (e.g.: Experimental Branches) without the need to push it to the server.
 
 ## Workflow examples [WIP]
-
-* Feature Branch
-* GitFlow
-* OTHERS!?
+### Feature Branch
+### GitFlow
+### Forking
