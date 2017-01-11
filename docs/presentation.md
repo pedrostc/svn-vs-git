@@ -1,15 +1,22 @@
 # SVN x GIT
 
 ## Centralized VS Distributed
+### Centralized
 
- - |Centralized|Distributed
-:---:|:---:|:---:
-Repository Location|Remote server|Local - There can be a central repository on a remote server but every collaborator who is working on it has a full copy of the repository locally.
-Operations|Remote|Mostly local
-
+<center>
 ![Centralized](assets/imgs/checkout-cvcs.png)
+</center>
 
+- The repository is located on a remote server where all operations are performed.
+
+### Distributed
+
+<center>
 ![Distributed](assets/imgs/checkout-dvcs.png)
+</center>
+
+- Every developer got a full copy of the repository stored locally where most of the operations are performed;
+- The local repository can point to one or more remote repositories where the work can be shared with other developers.
 
 ## Space Consumption
 
