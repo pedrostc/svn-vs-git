@@ -3,28 +3,34 @@
 ## Centralized VS Distributed
 ### Centralized
 
+- The repository is located on a remote server where all operations are performed.
+- When the user checkout a directory from the repository it gets only the files, with minimal versioning information.
+
 <center>
 ![Centralized](assets/imgs/checkout-cvcs.png)
 </center>
 
-- The repository is located on a remote server where all operations are performed.
-
 ### Distributed
+
+- Every developer got a full copy of the repository stored locally where most of the operations are performed;
+- The local repository can point to one or more remote repositories where the work can be shared with other developers.
 
 <center>
 ![Distributed](assets/imgs/checkout-dvcs.png)
 </center>
 
-- Every developer got a full copy of the repository stored locally where most of the operations are performed;
-- The local repository can point to one or more remote repositories where the work can be shared with other developers.
-
 ## Space Consumption
 
-Knowing that when one developer clone a GIT repository it actually gets a full copy of the intere repository, a concern may araise in terms os local disk space consumption. Well, while you may have more data stored in your disk all the GIT database is compressed and highly optimized which means that the local repository will ocupy less space in disk than one may think.
+Knowing that when one developer clone a GIT repository it actually gets a full copy of the repository, a concern may araise in terms os local disk space consumption. Well, while you may have more data stored in your disk all the GIT database is compressed and highly optimized which means that the local repository will ocupy less space in disk than one may think.
 
-When you checkout a sa folder from a subversion repository you end up with 2 uncompressed versions of the folder locally, your working copy and the snapshot of the last revision, the one you checkd out, of the folder. SVN does that to allow the developer to make diffs between the working copy and the last revision locally without needing to go to the server.
+When you checkout a folder from a subversion repository you end up with 2 uncompressed versions of the folder locally, your working copy and the snapshot of the last revision, the one you checkd out, of the folder. SVN does that to allow the developer to make diffs between the working copy and the last revision locally without needing to go to the server.
 
-We can compare the two options to see which has the biggest size, that can be done importing a existing SVN repository to a GIT repository using the GIT-SVN tool and then compare sizes on the folders.
+We can compare the two options to see which has the biggest size, that can be done importing a existing SVN repository to a GIT repository using the GIT-SVN tool and then compare sizes of the folders.
+
+For this example it was considered the **Phoenix** repository and a commom operation:
+- Clone of the imported git repository;
+- Checkout of the trunk from SVN.
+
 
 <<<<EXAMPLE - PHOENIX REPO>>>>
 1.04 GB VS 425 MB
