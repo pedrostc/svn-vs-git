@@ -31,3 +31,7 @@
 * [StackOverflow - What Git branching models work for you?](http://stackoverflow.com/questions/2621610/what-git-branching-models-work-for-you)
 
 * [Atlassian - GIT resources](https://www.atlassian.com/git/)
+
+* [BeanStalck - Using Branches in Subversion](http://guides.beanstalkapp.com/version-control/svn-branching.html)
+
+* [Joanne Carr - Subversion workflow guide](http://www.ccp2.ac.uk/svn_workflow.pdf)
