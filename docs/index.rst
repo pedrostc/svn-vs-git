@@ -11,9 +11,10 @@ Welcome to svn-vs-git's documentation!
    :caption: Table of Contents
 
 
-   references
-   presentation
-   brainstorm
+   1.svn-x-git-tech
+   2.svn-x-git-lite
+   3.vcs-workflows
+   0.references
 
 
 

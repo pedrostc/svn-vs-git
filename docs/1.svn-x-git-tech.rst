@@ -1,5 +1,5 @@
-Brainstorm
-**********
+[DRAFT] SVN vs GIT - Technical Aspects
+**************************************
 
 Licensing
 =========
