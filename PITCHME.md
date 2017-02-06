@@ -32,7 +32,7 @@
     * QA testing branch - modifications that are made and tested on Trunk should be merged to this branch
     * Bug fixes related to the code located here should be fixed first on Trunk and then merged here.
 
-#HSLIDE
+#VSLIDE
 
 ## Current Repository Structure
 
@@ -43,7 +43,7 @@
 - **Private**
     * A temporary branch that should be used for work that can break the Trunk - e.g.: New Features, experimental work.
 
-#HSLIDE
+#VSLIDE
 
 ## Current Repository Structure
 
