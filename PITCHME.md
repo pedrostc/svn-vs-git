@@ -2,47 +2,103 @@
 
 #HSLIDE
 
-## Present workflow
+## Agenda
 
-1 - Checkout/Update working copy from Trunk
-2 - Work
-3 - Commit to **Trunk**
-4 - Repeat 2 and 3 until the work is done
-5 - Checkout/Update the **Stable** branch work copy
-6 - Merge the Revisions from step 3 to the **Stable** branch
-7 - Solve conflicts if any
-8 - Commit to **Stable**
+- Introduction
+- Current Repository Structure
+- Attention Points
+- Change Tools?
+- Suggestions
+- Brainstorm time
 
 #HSLIDE
 
-## Branch Structure
+## Introduction
+
+“Hey, this presentation wasn’t about git?”
+
+- Well, it was, but:
+- The problems that we are facing are just tooling problems?
+- The current structure and workflows would migrate seamlessly to another VCS?
+
+#HSLIDE
+
+## Current Repository Structure
 
 - **Trunk**
-    + Dev workline - where almost every work is done
+    * Development branch - where all work is done
 
 - **Stable**
-    + QA testing branch - revisions that are made and tested on **Trunk** should be merged in this branch
-    + Bug fixes related to the code located here should be fixed first on **Trunk** and then merged here.
+    * QA testing branch - modifications that are made and tested on Trunk should be merged to this branch
+    * Bug fixes related to the code located here should be fixed first on Trunk and then merged here.
+
+#HSLIDE
+
+## Current Repository Structure
 
 - **Release**
-    + Created by QA after a version on **Stable** is ready for release
-    + Only hotfixes are allowed here
+    * Created by QA after a version on Stable is ready for release
+    * Only hotfixes are allowed here
 
 - **Private**
-    + Temporary branch that should be used for work that can break the **Trunk** - e.g.: New Features, experimental work.
+    * A temporary branch that should be used for work that can break the Trunk - e.g.: New Features, experimental work.
 
 #HSLIDE
 
-## Diagram
+## Current Repository Structure
 
-[TODO] Draw Diagram
+- **Feature Branch**
+- **Release Branch**
 
 #HSLIDE
 
-## Attention points
+## Current Workflow
 
-- Cherry picking merges became the norm
-- **Trunk** and **Stable** have independent life cicles but are maintained by the same users
-- Inconsistence between both branches history and code
-- Fixing **Stable** bugs on **Trunk** can lead to a inconsistent fix
-- 
+- Checkout/Update work copy from **Trunk**
+- Do some work
+- Commit to **Trunk**
+- Repeat the last 2 steps until work is done
+- Checkout/Update working copy from **Stable**
+- Merge the revisions created on **Trunk** to **Stable**
+- Solve conflicts, if any
+- Test
+- Commit to **Stable**
+
+#HSLIDE
+
+## Attention Points
+
+- Cherry picking merge became the norm
+    * Trunk and Stable have independent life cycles but are maintained by the same users.
+    * Inconsistence between both branches history and code.
+    * Fixing Stable bugs on Trunk can lead to a inconsistent fix.
+    * A code that works on Trunk may not work on Stable as is.
+    * The branches don’t actually touch each other at any point.
+
+#HSLIDE
+
+## Change Tools?
+
+- Does the current structure migrate seamlessly to another VCS (e.g.: git)?
+- Does the current workflow migrate seamlessly?
+- It is better to fix the workflow first and then migrate or migrate and fix the workflow on teh fly?
+- Does this workflow actually work or is it optimal?
+- Does this structure is optimal for the team necessities?
+
+#HSLIDE
+
+## Suggestions
+
+- Change the merge to Stable strategy
+- New development Branch (**Trunk**) based on **Stable**
+- Keep **Trunk** clean
+- Encourage the use of branches for experimentation or breaking updates
+- Branch-When-Needed strategy
+
+#HSLIDE
+
+## Talking about Branches
+
+- Why not use git?
+    * Distributed
+    * Branching as core concept
