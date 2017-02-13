@@ -14,7 +14,7 @@ Welcome to svn-vs-git's documentation!
    1.svn-x-git-tech
    2.svn-x-git-lite
    3.vcs-workflows
-   4.worfkow-changes
+   4.workflow-changes
    0.references
 
 
